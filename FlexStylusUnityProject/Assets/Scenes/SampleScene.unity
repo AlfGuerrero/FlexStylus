@@ -293,7 +293,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91219185}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -367,10 +367,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pieMenuSize: 0
-  participant: 32
+  participant: 2
   flexibilityLevel: 0
   sensitivity: 12
-  trials: 2
+  trials: 6
   menuCount: 0
   indexMenu: 0
   total: 0
@@ -1463,7 +1463,7 @@ MonoBehaviour:
   noisyTransform: {fileID: 91219186}
   filteredTransform: {fileID: 885921008}
   filterOn: 1
-  filterFrequency: 14
+  filterFrequency: 6
   filterMinCutoff: 1
   filterBeta: 0
   filterDcutoff: 1
@@ -2606,7 +2606,7 @@ PrefabInstance:
     - target: {fileID: 2478495939861622927, guid: 7a98fc8f943ca5f4887165e249677a2d,
         type: 3}
       propertyPath: participant
-      value: 32
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2478495939861622927, guid: 7a98fc8f943ca5f4887165e249677a2d,
         type: 3}
@@ -2616,7 +2616,7 @@ PrefabInstance:
     - target: {fileID: 2478495939861622927, guid: 7a98fc8f943ca5f4887165e249677a2d,
         type: 3}
       propertyPath: trials
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2478495939861622926, guid: 7a98fc8f943ca5f4887165e249677a2d,
         type: 3}
