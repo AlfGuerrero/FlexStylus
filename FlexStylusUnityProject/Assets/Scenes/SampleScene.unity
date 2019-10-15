@@ -367,9 +367,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pieMenuSize: 0
-  participant: 2
+  participant: 0
   flexibilityLevel: 0
-  sensitivity: 12
+  sensitivity: 10
   trials: 6
   menuCount: 0
   indexMenu: 0
@@ -2596,7 +2596,7 @@ PrefabInstance:
     - target: {fileID: 2478495939861622927, guid: 7a98fc8f943ca5f4887165e249677a2d,
         type: 3}
       propertyPath: sensitivity
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2478495939861622927, guid: 7a98fc8f943ca5f4887165e249677a2d,
         type: 3}
@@ -2606,7 +2606,7 @@ PrefabInstance:
     - target: {fileID: 2478495939861622927, guid: 7a98fc8f943ca5f4887165e249677a2d,
         type: 3}
       propertyPath: participant
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2478495939861622927, guid: 7a98fc8f943ca5f4887165e249677a2d,
         type: 3}
