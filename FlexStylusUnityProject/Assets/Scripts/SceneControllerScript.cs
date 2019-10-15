@@ -57,14 +57,14 @@ public class SceneControllerScript : MonoBehaviour
         touchController = touchControllerObject.GetComponent<TouchInputController>();
 
         filePath = getPath();
-        File.AppendAllText(filePath, "date, time, id , flexibility, sensitivity, size, item, round, count, selection, target, success, timeTaken, \n");
+        File.AppendAllText(filePath, "date, time, id , flexibility, sensitivity, size, itemCount, round, count, selection, target, success, timeTaken, \n");
 
         targetCircle = GameObject.FindGameObjectWithTag("TargetCircle");
         dockingCircle = GameObject.FindGameObjectWithTag("DockingCircle");
         referenceCircle = GameObject.FindGameObjectWithTag("ReferenceCircle");
         dockingObject = GameObject.Find("DockingObject");
         referenceCircle.transform.position = dockingCircle.transform.position;
-
+         
     }
 
   
